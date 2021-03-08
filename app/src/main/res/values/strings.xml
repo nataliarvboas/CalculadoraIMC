@@ -2,6 +2,6 @@
     <string name="app_name">Calculadora IMC</string>
     <string name="app_title">IMC</string>
     <string name="mass_input">Peso (kg)</string>
-    <string name="height_input">Altura (cm)</string>
+    <string name="height_input">Altura (m)</string>
     <string name="compute_button">Calcular IMC</string>
 </resources>

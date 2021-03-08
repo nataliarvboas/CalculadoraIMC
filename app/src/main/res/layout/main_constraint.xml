@@ -34,9 +34,12 @@
         android:layout_marginHorizontal="100dp"
         android:layout_marginTop="120dp"
         android:hint="@string/height_input"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/horizontal_top" />
+        app:layout_constraintTop_toTopOf="@+id/horizontal_top"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/compute_button"
@@ -62,13 +65,15 @@
         app:layout_constraintGuide_percent="0.25" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/result_window"
         android:layout_width="204dp"
         android:layout_height="99dp"
         android:layout_marginTop="68dp"
-        android:text="TextView"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mass_input" />
+        app:layout_constraintTop_toBottomOf="@+id/mass_input"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
